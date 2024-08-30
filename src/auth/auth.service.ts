@@ -220,7 +220,7 @@ if(!user){
         password: hash,
       },
     });
-return upt;
+return {msg:"password changed successed"};
   }
   
   async profileUpdate(id: string, dto: UpdateDtoProfile) {
